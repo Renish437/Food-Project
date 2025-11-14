@@ -62,5 +62,5 @@
 
     @include('backend.section.script')
 </body>
-
+@stack('scripts')
 </html>

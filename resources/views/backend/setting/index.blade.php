@@ -149,8 +149,7 @@
                                                         </div>
                                                         <div class="col-xxl-9 col-xl-8 col-md-9">
                                                             <input type="text" name="name" id="fullnameInput"
-                                                                value="{{ auth()->user()->name }}" required>
-
+                                                                value="{{ auth()->user()->name }}" >
 
                                                         </div>
 
@@ -160,13 +159,10 @@
                                                         </div>
                                                         <div class="col-xxl-9 col-xl-8 col-md-9">
                                                             <input type="email" name="email" id="inputEmail4"
-                                                                value="{{ auth()->user()->email }}" required>
+                                                                value="{{ auth()->user()->email }}" >
                                                         </div>
 
                                                         <button class="btn save-button" type="submit">Update</button>
-
-
-
 
                                                     </form>
 

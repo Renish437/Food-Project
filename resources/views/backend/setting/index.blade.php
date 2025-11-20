@@ -134,7 +134,7 @@
                                                                 <img id="avatarPreview"
                                                                     src="{{ asset(auth()->user()->avatar) }}"
                                                                     alt="Image Preview"
-                                                                    style="height: 100px; width: 100px; border-radius: 50px; margin-top: 10px; {{ auth()->user()->avatar ? '' : 'display: none;' }}">
+                                                                    style="height: 100px; width: 100px; border-radius: 50px; margin-bottom:10px; margin-top: 10px;  {{ auth()->user()->avatar ? '' : 'display: none;' }}">
 
                                                             </div>
 

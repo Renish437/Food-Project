@@ -19,7 +19,7 @@ Route::middleware(['auth', 'verified', 'roles:admin'])->prefix('admin')->name('a
      Route::resource('setting', SettingController::class);
 
     //  /*  control Profile */
-     Route::resource('/profile', AdminProfileController::class);
+     Route::resource('profile', AdminProfileController::class);
 
 
 });
